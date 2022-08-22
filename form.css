@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oxygen:wght@300&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+html{
+    background: linear-gradient(45deg, rgba(255, 131, 131, 1), rgba(250, 195, 157, 1), rgba(251, 238, 158, 1));
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#mainContainer{
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    top:  300px;
+    border-radius: 20px;
+}
+#cNContainer{
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+    top: -500px;
+    height: 100px;
+    width: 500px;
+}
+#cNContainer>a{
+    color: rgba(255,255,255,1);
+    position: relative;
+    top: 380px;
+    left: 10px;
+    text-decoration: none;
+}
+#slogan{
+    font-size: 20px;
+}
+#companyName{
+    color: rgba(255,255,255,1);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0 10px 0;
+    font-family: 'Great Vibes', cursive;
+}
+#image{
+   width: 900px;
+   height: 600px;
+   border-radius: 20px;
+}
+#formContainer{
+    background-color: rgba(255,255,255,.9);
+    width: 400px;
+    height: 600px;
+    position: relative;
+    left: 500px;
+    top: -704px;
+    border-radius: 20px;
+}
+#signUpText{
+    position: relative;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    top: 50px;
+}
+#signUpText>h1{
+    font-family: 'Great Vibes', cursive;
+}
+#firstName,
+#lastName,
+#email,
+#number,
+#row1,
+#row2,
+#row3,
+#row4,
+#btn{
+    position: relative;
+    display: block;
+    font-weight: bolder;
+}
+#row1{
+    top:60px;
+}
+#row2{
+    top: 125px;
+    left: -260px;
+}
+#row3{
+    top: 120px;
+}
+#row4{
+    top: 190px;
+    left: -260px;
+}
+.input{
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 0px 10px 0 10px;
+}
+#firstName,
+#email{
+    top:22px;
+    left: 30px;
+}
+#email>input{
+    position: relative;
+    top: 30px;
+    left: -47px;
+    
+}
+#lastName,
+#number{
+    left: 290px;
+}
+#lastName{
+    top: -10px;
+}
+#firstName>input,
+#lastName>input,
+#number>input{
+    position: relative;
+    top: 10px;
+
+}
+#firstName>input:invalid,
+#lastName>input:invalid,
+#email>input:invalid{
+    filter: brightness(95%);
+}
+#btn{
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    margin:auto;
+    top: 230px;
+    border: none;
+    background-color: rgba(250, 195, 157, 1);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+#btn:hover{
+    filter:brightness(105%);
+}

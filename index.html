@@ -8,33 +8,47 @@
     <title>Account creation</title>
   </head>
   <body>
-    <fieldset id="form">
-      <div>Account Set Up</div>
-      <div>
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" name="firstName">
+      <div id="mainContainer">
+        <div id="assetContainer">
+          <img src="./assets/images/Daybreak.jpg" alt="Sunrise behind a vibrant oak tree" id="image">
+          <div id="cNContainer">
+            <div id="companyName">Mindful Minutes</div>
+            <a href="https://wallpaperaccess.com/sunrise-trees" target="_blank">Wallpapers.com</a>
+          </div>
+        </div>
+        <div id="formContainer">
+          <form action="insertexample.here" method="post">
+            <div id="signUpText">
+              <h1>Sign Up</h1>
+              <p id="slogan">Find your inner peace</p>
+            </div>
+              <div id="row1">
+                <div id="firstName">
+                  <label for="firstName">First Name</label>
+                  <input type="text" placeholder="e.g. Susan" class="input" name="firstName" minlength="2" maxlength="20" required>
+                </div>
+              </div>
+              <div id="row2">
+                <div id="lastName" >
+                  <label for="lastName">Last Name</label>
+                  <input type="text" placeholder="e.g. Smith" class="input" name="lastName" minlength="2" maxlength="20" required>
+                </div>
+              </div>
+              <div id="row3">
+                <div id="email" >
+                  <label for="email">Email</label>
+                  <input type="email" placeHolder="e.g. SusSmith@snailmail.com" class="input" name="email" required>
+                </div>
+              </div>
+              <div id="row4">
+                <div id="number">
+                  <label for="number">Phone Number</label>
+                  <input type="text" placeholder="e.g. 0123-456-789" class="input" name="number">
+                </div>
+              </div>
+            <button type="submit" id="btn">Sign me up!</button>
+          </form>
+        </div>
       </div>
-      <div>
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" name="lastName">
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email">
-      </div>
-      <label for="number">Pho<div>
-        ne Number</label>
-        <input type="text" id="number" name="number">
-      </div>
-      <label for="password">Passwor<div>
-        d</label>
-        <input type="text" id="password" name="password">
-      </div>
-      <label for="confirmPassword">Confirm P<div>
-        assword</label>
-        <input type="text" id="confirmPassword" name="confirmPassword">
-      </div>
-      <button type="submit" id="btn">Create Account</button>
-    </fieldset>
   </body>
 </html>
